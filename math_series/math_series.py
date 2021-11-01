@@ -32,12 +32,12 @@ def lucas(n):
 
 
 
-def sum_series(n,f=0,s=1):
+def sum_series(n,first=0,sec=1):
 
 
-    if n ==0:
-        return f
-    elif n==1:
-        return s
+    if first ==2 and sec ==1:
+        return lucas(n)
+    elif first==0 and sec == 1:
+        return fibonacci(n)
     else:
-        return sum_series(n-1,f,s) + sum_series    
+        return fibonacci(n) + lucas(n)    
