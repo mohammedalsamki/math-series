@@ -35,6 +35,7 @@ def lucas(n):
 def sum_series(n,first=0,sec=1):
 
 
+
       
         if n ==0:
          return first
@@ -43,3 +44,11 @@ def sum_series(n,first=0,sec=1):
         else:
          return sum_series(n-1,first,sec) + sum_series(n-2,first,sec)
        
+
+    if first ==2 and sec ==1:
+        return lucas(n)
+    elif first==0 and sec == 1:
+        return fibonacci(n)
+    else:
+        return fibonacci(n) + lucas(n)      
+
