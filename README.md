@@ -18,7 +18,7 @@
 <hr>
 
 # RP Link:
-## https://github.com/mohammedalsamki/math-series/pull/1
+## https://github.com/mohammedalsamki/math-series/pull/2/
 
 <br>
 <hr>
